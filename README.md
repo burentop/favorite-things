@@ -1,16 +1,12 @@
-# _political_
+# _favorite-things_
 
-#### _Simple web page to practice Bootstrap forms, 12.14.2016_
+#### _Simple web page to practice Javascript arrays, 12.14.2016_
 
 #### By _**Brent Perry**_
 
 ## Description
 
-_This is a very simple website used to reinforce what I've leanred about CSS forms._
-
-## View the Web site
-
-_http://burentop.github.io/political_
+_This is a very simple website used to reinforce what I've leanred about Javascript arrays._
 
 ## Setup/Installation Requirements
 

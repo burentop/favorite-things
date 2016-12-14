@@ -5,30 +5,30 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Triangles</title>
+    <title>Favorite Things</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Which Triangle?</h1>
-        <h2>Input the side lengths of a triangle, and find out what type of triangle it is.</h2>
+        <h1>Favorite Things</h1>
+        <h2>Input some of your favorite things, and then see the list displayed</h2>
       </div>
-      <div class="lengths">
+      <div class="favorites">
         <form>
-          <div class="form-group side1">
-            <label for="side1">Side 1 length:</label>
-            <input id="side1" class="form-control" type="text" />
-            <span id="side1-warning" class="help-block"></span>
+          <div class="form-group thing1">
+            <label for="thing1">First thing:</label>
+            <input id="thing1" class="form-control" type="text" />
+            <span id="thing1-warning" class="help-block"></span>
           </div>
-          <div class="form-group side2">
-            <label for="side2">Side 2 length:</label>
-            <input id="side2" class="form-control" type="text" />
-            <span id="side2-warning" class="help-block"></span>
+          <div class="form-group thing2">
+            <label for="thing2">Second thing:</label>
+            <input id="thing2" class="form-control" type="text" />
+            <span id="thing2-warning" class="help-block"></span>
           </div>
-          <div class="form-group side3">
-            <label for="side3">Side 3 length:</label>
-            <input id="side3" class="form-control" type="text" />
-            <span id="side3-warning" class="help-block"></span>
+          <div class="form-group thing3">
+            <label for="thing3">Third thing:</label>
+            <input id="thing3" class="form-control" type="text" />
+            <span id="thing3-warning" class="help-block"></span>
           </div>
           <p></p>
           <button type="submit" class="btn">Submit</button>
@@ -36,10 +36,10 @@
       </div>
       <p></p>
       <div class="well result">
-        <h3>This triangle is:</h3>
+        <h3>Your favorite things:</h3>
         <p></p>
         <div>
-          <h3 id="triangle-name"></h3>
+          
         </div>
       </div>
     </div>
