@@ -30,9 +30,12 @@ $(document).ready(function () {
       newArray.push(things[1]);
       newArray.push(things[0]);
       newArray.push(things[2]);
-    }
 
-    console.log(things);
-    console.log(newArray);
+      $("#first-thing").text(newArray[0]);
+      $("#second-thing").text(newArray[1]);
+      $("#third-thing").text(newArray[2]);
+
+      $(".result").show();
+    }
   });
 });
