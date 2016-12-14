@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangles</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Which Triangle?</h1>
+        <h2>Input the side lengths of a triangle, and find out what type of triangle it is.</h2>
+      </div>
+      <div class="lengths">
+        <form>
+          <div class="form-group side1">
+            <label for="side1">Side 1 length:</label>
+            <input id="side1" class="form-control" type="text" />
+            <span id="side1-warning" class="help-block"></span>
+          </div>
+          <div class="form-group side2">
+            <label for="side2">Side 2 length:</label>
+            <input id="side2" class="form-control" type="text" />
+            <span id="side2-warning" class="help-block"></span>
+          </div>
+          <div class="form-group side3">
+            <label for="side3">Side 3 length:</label>
+            <input id="side3" class="form-control" type="text" />
+            <span id="side3-warning" class="help-block"></span>
+          </div>
+          <p></p>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+      <p></p>
+      <div class="well result">
+        <h3>This triangle is:</h3>
+        <p></p>
+        <div>
+          <h3 id="triangle-name"></h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
