@@ -25,8 +25,14 @@ $(document).ready(function () {
       things.push(thing1);
       things.push(thing2);
       things.push(thing3);
+
+      var newArray = [];
+      newArray.push(things[1]);
+      newArray.push(things[0]);
+      newArray.push(things[2]);
     }
 
     console.log(things);
+    console.log(newArray);
   });
 });
